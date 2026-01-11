@@ -2,7 +2,7 @@
 
 A simple web application that predicts whether a movie review is **Positive** or **Negative** using a basic Recurrent Neural Network (RNN) trained on the classic IMDB dataset.
 
- [Live Demo](https://cosmicveil1-movie-review-main-ytdikc.streamlit.app/)* |  [GitHub Repo](https://github.com/cosmicveil1/movie-review)**
+ [Live Demo](https://cosmicveil1-movie-review-main-ytdikc.streamlit.app/) |  [GitHub Repo](https://github.com/cosmicveil1/movie-review)
 
 ##  Key Features
 
