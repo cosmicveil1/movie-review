@@ -41,14 +41,12 @@ st.write("Enter a movie review below to predict its sentiment (Positive/Negative
 user_input = st.text_area("Movie Review")
 
 if st.button("classify"):
-    preprocessed_input=preprocess_text(user_input)
-
-    #make predictions
-    prediction=model.predict(preprocessed_input)
-    sentiment='Positive' if prediction[0][0]>=0.5 else 'Negative'
-
-    ##display results
-    st.write(f"Predicted Sentiment: **{sentiment}**")
-    st.write(f"Prediction Confidence: **{prediction[0][0]:.4f}**")
-else:
-    st.write("Please enter a movie review and click 'Classify' to see the sentiment prediction.")
+    try:
+        preprocessed_input = preprocess_text(user_input)
+        prediction = model.predict(preprocessed_input)
+        sentiment = 'Positive' if prediction[0][0] >= 0.5 else 'Negative'
+        
+        st.write(f"Predicted Sentiment: **{sentiment}**")
+        st.write(f"Prediction Confidence: **{prediction[0][0]:.4f}**")
+    except Exception as e:
+        st.error("Unable to process this review. Please try different wording.")
