@@ -86,7 +86,7 @@ Confidence Score & Sentiment Label
 
 **Output**: 
 - Sentiment: **Positive** ✅
-- Confidence: **0.9847**
+- Confidence: **0.747**
 
 ## 📂 Project Structure
 
