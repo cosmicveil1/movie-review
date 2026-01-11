@@ -98,7 +98,6 @@ movie-review/
 ├── README.md                 # This file
 ├── LICENSE                   # MIT License
 ├── simpleRNN.ipynb          # Model training notebook
-├── embedding.ipynb          # Embedding layer analysis
 └── prediction.ipynb         # Prediction examples & validation
 ```
 
