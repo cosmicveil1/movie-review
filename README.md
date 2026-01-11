@@ -2,16 +2,16 @@
 
 A simple web application that predicts whether a movie review is **Positive** or **Negative** using a basic Recurrent Neural Network (RNN) trained on the classic IMDB dataset.
 
-**🚀 [Live Demo](https://cosmicveil1-movie-review-main-ytdikc.streamlit.app/)** | **📊 [GitHub Repo](https://github.com/cosmicveil1/movie-review)**
+** [Live Demo](https://cosmicveil1-movie-review-main-ytdikc.streamlit.app/)** | ** [GitHub Repo](https://github.com/cosmicveil1/movie-review)**
 
-## 🎯 Key Features
+##  Key Features
 
-- ✅ **Real-time Sentiment Analysis** - Binary classification (Positive/Negative) with confidence scores
-- ✅ **Deployment** - Live application deployed on Streamlit Cloud
-- ✅ **Pre-trained Deep Learning Model** - SimpleRNN trained on 25,000 IMDB reviews
-- ✅ **Text Preprocessing Pipeline** - Automatic tokenization, encoding, and padding
+-  **Sentiment Analysis** - Binary classification (Positive/Negative) with confidence scores
+-  **Deployment** - Live application deployed on Streamlit Cloud
+-  **Pre-trained Deep Learning Model** - SimpleRNN trained on 25,000 IMDB reviews
+-  **Text Preprocessing Pipeline** - Automatic tokenization, encoding, and padding
 
-## 🏗️ Architecture & Tech Stack
+##  Architecture & Tech Stack
 
 | Component | Technology |
 |-----------|------------|
@@ -22,7 +22,7 @@ A simple web application that predicts whether a movie review is **Positive** or
 | **Data Processing** | NumPy, Scikit-learn |
 | **Visualization** | Matplotlib, TensorBoard |
 
-## 📊 Model Performance
+##  Model Performance
 
 - **Dataset**: IMDB Reviews (25,000 training samples)
 - **Architecture**: Embedding Layer → SimpleRNN → Dense Output
@@ -30,7 +30,7 @@ A simple web application that predicts whether a movie review is **Positive** or
 - **Output**: Binary classification with confidence score (0-1)
 - **Threshold**: 0.5 for positive/negative classification
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Try the Live App
 Click the link above to test the app instantly without installation!
@@ -64,7 +64,7 @@ streamlit run main.py
 http://localhost:8501
 ```
 
-## 📝 How It Works
+##  How It Works
 
 ### Text Processing Pipeline
 ```
@@ -85,10 +85,10 @@ Confidence Score & Sentiment Label
 **Input**: *"This movie absolutely blew my mind! Best cinematography I've ever seen."*
 
 **Output**: 
-- Sentiment: **Positive** ✅
+- Sentiment: **Positive** 
 - Confidence: **0.747**
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 movie-review/
@@ -102,7 +102,7 @@ movie-review/
 └── prediction.ipynb         # Prediction examples & validation
 ```
 
-## 🔧 Requirements
+##  Requirements
 
 ```
 tensorflow
@@ -115,7 +115,7 @@ streamlit
 scikeras
 ```
 
-## 📚 Key Implementation Details
+##  Key Implementation Details
 
 ### Model Architecture
 - **Embedding Layer**: Maps word indices to 128-dimensional vectors
@@ -128,7 +128,7 @@ scikeras
 - Sequences padded/truncated to 500 tokens
 - Vocabulary size: 10,000 + 3 reserved indices
 
-## 🌐 Deployment
+##  Deployment
 
 Deployed on **Streamlit Cloud** for instant, serverless hosting:
 - Automatic deployment from GitHub
@@ -142,7 +142,7 @@ Deployed on **Streamlit Cloud** for instant, serverless hosting:
 3. Visit [share.streamlit.io](https://share.streamlit.io)
 4. Connect your repo and deploy!
 
-## 📈 Future Enhancements
+##  Future Enhancements
 
 - [ ] Multi-class sentiment (negative, neutral, positive)
 - [ ] Attention mechanism visualization
@@ -153,7 +153,7 @@ Deployed on **Streamlit Cloud** for instant, serverless hosting:
 - [ ] Fine-tuning capability
 - [ ] Multi-language support
 
-## 💡 Learning Outcomes
+##  Learning Outcomes
 
 This project demonstrates:
 - ✓ Building and training RNN models with Keras
@@ -162,7 +162,7 @@ This project demonstrates:
 - ✓ Creating web apps with Streamlit
 - ✓ End-to-end ML project workflow
 
-## 📄 License
+##  License
 
 MIT License - feel free to use this for personal or commercial projects. See [LICENSE](LICENSE) file.
 
