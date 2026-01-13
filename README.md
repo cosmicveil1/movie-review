@@ -161,6 +161,13 @@ This project demonstrates:
 - ✓ Creating web apps with Streamlit
 - ✓ End-to-end ML project workflow
 
+## Model Limitations
+
+- SimpleRNN struggles with long-range dependencies and complex sentence structures.
+- Performance degrades for reviews containing mixed or subtle sentiment.
+- Lack of attention mechanism limits interpretability and contextual focus.
+
+
 ##  License
 
 MIT License - feel free to use this for personal or commercial projects. See [LICENSE](LICENSE) file.
